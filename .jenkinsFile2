@@ -1,8 +1,8 @@
 pipeline
 {
-agent any
-stages
-{
+	agent any
+	stages
+		{
 stage ('build'){
 steps{
 bat "mvn clean"
@@ -31,5 +31,5 @@ echo "Releasing the project."
 
 }
 
-
+}
 }
