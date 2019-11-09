@@ -1,0 +1,35 @@
+pipeline
+{
+agent any
+stages
+{
+stage ('build'){
+steps{
+	bat "mvn clean"
+}
+
+}
+stage ('deploy'){
+steps{
+	echo "Deploying the code in QMG environment"
+}
+}
+stage ('test'){
+steps{
+	bat "mvn test"
+}
+}
+stage ('UnitTesting'){
+steps{
+	bat "mvn compile"
+}
+}
+stage ('Release'){
+steps{
+	echo "Releasing the project."
+}
+
+}
+
+
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Docker Hub-Node Test Suite" duration-ms="64989" started-at="2019-11-09T16:55:32Z" finished-at="2019-11-09T16:56:37Z">
+    <groups>
+    </groups>
+    <test name="E:/Udemy/DockerValidation" duration-ms="64989" started-at="2019-11-09T16:55:32Z" finished-at="2019-11-09T16:56:37Z">
+      <class name="ChromeTest1">
+        <test-method status="PASS" signature="scaleDocker()[pri:0, instance:ChromeTest1@dfd3711]" name="scaleDocker" is-config="true" duration-ms="40341" started-at="2019-11-09T16:55:32Z" finished-at="2019-11-09T16:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scaleDocker -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:ChromeTest1@dfd3711]" name="test1" duration-ms="13454" started-at="2019-11-09T16:56:12Z" finished-at="2019-11-09T16:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="stopDockerDeleteFile()[pri:0, instance:ChromeTest1@dfd3711]" name="stopDockerDeleteFile" is-config="true" duration-ms="10632" started-at="2019-11-09T16:56:26Z" finished-at="2019-11-09T16:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerDeleteFile -->
+      </class> <!-- ChromeTest1 -->
+      <class name="ChromeTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:ChromeTest2@42d3bd8b]" name="test2" duration-ms="13891" started-at="2019-11-09T16:56:12Z" finished-at="2019-11-09T16:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- ChromeTest2 -->
+      <class name="ChromeTest3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:ChromeTest3@26ba2a48]" name="test3" duration-ms="9124" started-at="2019-11-09T16:56:12Z" finished-at="2019-11-09T16:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- ChromeTest3 -->
+    </test> <!-- E:/Udemy/DockerValidation -->
+  </suite> <!-- Docker Hub-Node Test Suite -->
+</testng-results>
